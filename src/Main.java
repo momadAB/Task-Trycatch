@@ -8,7 +8,6 @@ public class Main {
         String validUsername = "Coded";
         String validPassword = "Coded123";
 
-        // I know it says to use a for loop but this feels way easier
         for (int loginAttempts = 0; loginAttempts < 5; loginAttempts++) {
             try {
                 System.out.print("Enter username: ");
